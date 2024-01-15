@@ -25,7 +25,7 @@ db_connection = pymysql.connect(host=db_host, user=db_user, password=db_password
 # Configure Elasticsearch
 es_host = os.environ.get('ES_HOST', 'localhost')
 es_port = 9200
-es_scheme = 'http'
+es_scheme = 'https'
 es_index = 'log_index'
 es_username = 'elastic'  # Replace with your Elasticsearch username
 es_password = '1TcWhIycsGHmN5qtea7g'  # Replace with your Elasticsearch password
